@@ -1,0 +1,16 @@
+PODS:
+  - XHToolKit (0.1.0)
+
+DEPENDENCIES:
+  - XHToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  XHToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHToolKit: 86871b467a3ad427127b6dea80aa00cf55fbbf04
+
+PODFILE CHECKSUM: 506118d88b6554e4bc0cbb5ba0d490f9bee668c8
+
+COCOAPODS: 1.5.3
