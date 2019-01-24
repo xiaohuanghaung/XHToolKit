@@ -1,22 +1,36 @@
 {
   "name": "XHToolKit",
   "version": "0.1.0",
-  "summary": "A short description of XHToolKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/18811574335@163.com/XHToolKit",
+  "summary": "XHToolKit是一款工具类库",
+  "description": "XHToolKit是一款工具类库，包含了类别、基类等，建议添加。",
+  "homepage": "https://github.com/xiaohuanghaung/XHToolKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "18811574335@163.com": "18811574335"
+    "xiaohuanghuang": "18888888888@163.com"
   },
   "source": {
-    "git": "https://github.com/18811574335@163.com/XHToolKit.git",
+    "git": "https://github.com/xiaohuanghaung/XHToolKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XHToolKit/Classes/**/*"
+  "ios": {
+    "vendored_frameworks": "Frameworks/XHToolKit.framework"
+  },
+  "resources": "Frameworks/XHToolKitResource.Bundle",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "PPBadgeView": [
+
+    ]
+  }
 }

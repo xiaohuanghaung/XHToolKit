@@ -1,0 +1,6 @@
+framework module XHToolKit {
+  umbrella header "XHToolKit.h"
+
+  export *
+  module * { export * }
+}

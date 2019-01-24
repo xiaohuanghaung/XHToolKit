@@ -7,6 +7,7 @@
 //
 
 #import "XHViewController.h"
+#import <XHToolKit/XHToolKit.h>
 
 @interface XHViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor yellowColor];
+    [self showHUD];
+    [self showHUDErrorWithTitle:@"啊呀错了"];
 }
 
 - (void)didReceiveMemoryWarning
