@@ -1,6 +1,6 @@
 {
   "name": "XHToolKit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "XHToolKit是一款工具类库",
   "description": "XHToolKit是一款工具类库，包含了类别、基类等，建议添加。",
   "homepage": "https://github.com/xiaohuanghaung/XHToolKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiaohuanghaung/XHToolKit.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
